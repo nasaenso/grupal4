@@ -5,13 +5,14 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Japflix</title>
-
+ 
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js"></script>
   
 </head>
-
+ 
 <body class="bg-dark">
   <main>
     <div class="text-center container">
@@ -23,10 +24,35 @@
         </div>
       </div>
     </div>
-
     <div class="album">
-      <ul class="list-group container" id="lista">
+      <ul class="list-group container color" id="lista">
       </ul>
+    </div>
+    <div id="offcanvas">
+      <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="titulo">
+
+          </h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <div id="peliOverview">
+            
+          </div>
+          <div class="dropdown mt-3">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+              Mas
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <li><a class="dropdown-item" href="#" id="anio"></a></li>
+              <li><a class="dropdown-item" href="#" id="duracion"></a></li>
+              <li><a class="dropdown-item" href="#" id="presupuesto"></a></li>
+              <li><a class="dropdown-item" href="#" id="ganancias"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
   </main>
 
