@@ -30,3 +30,6 @@ main {
 .color {
     color: white;
 }
+.boton {
+    position: absolute;
+}
