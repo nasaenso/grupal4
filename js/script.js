@@ -115,7 +115,8 @@ document.addEventListener("DOMContentLoaded", function(){
         let textoEscrito = document.getElementById("inputBuscar").value;
 
         if(textoEscrito == ""){
-            mostrarPeliculas(empty);
+            mostrarPeliculas(empty)
+            alert('Debe ingresar al menos un carácter en el buscador');
         }else {
             buscador();
         }
