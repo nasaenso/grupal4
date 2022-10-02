@@ -65,10 +65,10 @@ function offCanvas(id) {
       <li><a class="dropdown-item" href="#">
         RunTime: ${pelicula.runtime} minutes </a>
       </li>
-      <li><a class="dropdown-item" href="#"> 
-        Budget: ${pelicula.budget} </a>
+      <li><a class="dropdown-item text-danger" href="#"> 
+        Budget: $${pelicula.budget} </a>
       </li>
-      <li><a class="dropdown-item" href="#">
+      <li><a class="dropdown-item text-success" href="#">
       Revenue: $${pelicula.revenue} </a>
        </li>
     `
