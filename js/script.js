@@ -31,7 +31,7 @@ function puntuacion(array){
 
 function buscador(){
 
-    let buscado = " " + document.getElementById("inputBuscar").value;
+    let buscado = " " + document.getElementById("inputBuscar").value + " ";
 
     let listafiltrada = peliculasArray.filter(pelicula => {
     
